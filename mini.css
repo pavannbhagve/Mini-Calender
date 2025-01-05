@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #34383d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+}
+.container{
+    width: 300px;
+    text-align: center;
+    color: aliceblue;
+    background: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+
+    
+}
+.month{
+    background: #bc2a2a;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+
+
+    
+}
+.weekdays{
+    margin-bottom: 10px;
+}
+.day{
+  
+    padding: 10px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.year{
+    border-bottom: 10px;
+}
